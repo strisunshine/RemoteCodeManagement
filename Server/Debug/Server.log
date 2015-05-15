@@ -1,0 +1,44 @@
+﻿Build started 2015/4/29 23:56:18.
+     1>Project "D:\CSE687\MockProject\backup\MessagePassing\Server\Server.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D TEST_SERVER /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ApplicationHelpers\AppHelpers.cpp ..\DataStore\DataStore.cpp ..\DisplayHelper\DisplayHelper.cpp ..\FileCatalogue\FileCatalogue.cpp ..\FileCatalogue\FileSystem.cpp ..\Message\Message.cpp ..\Receiver\Receiver.cpp ..\Sender\Sender.cpp ..\Sockets\Sockets\Sockets.cpp ..\WindowsHelpers\WindowsHelpers.cpp ..\XmlDocument\XmlDocument.cpp ..\XmlElementParts\XmlElementParts\Tokenizer.cpp ..\XmlElementParts\XmlElementParts\xmlElementParts.cpp ..\XmlElement\XmlElement.cpp ..\XmltoTree\XmltoTree.cpp Server.cpp
+         Server.cpp
+         XmltoTree.cpp
+         XmlElement.cpp
+         xmlElementParts.cpp
+         Tokenizer.cpp
+         XmlDocument.cpp
+         WindowsHelpers.cpp
+         Sockets.cpp
+         Sender.cpp
+         Receiver.cpp
+         Message.cpp
+         FileSystem.cpp
+         FileCatalogue.cpp
+         DisplayHelper.cpp
+         DataStore.cpp
+         AppHelpers.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CSE687\MockProject\backup\MessagePassing\Debug\Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CSE687\MockProject\backup\MessagePassing\Debug\Server.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CSE687\MockProject\backup\MessagePassing\Debug\Server.lib" /MACHINE:X86 Debug\AppHelpers.obj
+         Debug\DataStore.obj
+         Debug\DisplayHelper.obj
+         Debug\FileCatalogue.obj
+         Debug\FileSystem.obj
+         Debug\Message.obj
+         Debug\Receiver.obj
+         Debug\Sender.obj
+         Debug\Sockets.obj
+         Debug\WindowsHelpers.obj
+         Debug\XmlDocument.obj
+         Debug\Tokenizer.obj
+         Debug\xmlElementParts.obj
+         Debug\XmlElement.obj
+         Debug\XmltoTree.obj
+         Debug\Server.obj
+         Server.vcxproj -> D:\CSE687\MockProject\backup\MessagePassing\Debug\Server.exe
+     1>Done Building Project "D:\CSE687\MockProject\backup\MessagePassing\Server\Server.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.09

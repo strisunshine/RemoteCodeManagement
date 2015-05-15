@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14D6A744-1FB8-4FE5-BA1E-F6AF136A953B}</ProjectGuid>
+    <RootNamespace>Client2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MBCS;IN_DLL;TEST_CLIENT2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ApplicationHelpers\AppHelpers.cpp" />
+    <ClCompile Include="..\Cpp11-BlockingQueue\Cpp11-BlockingQueue.cpp" />
+    <ClCompile Include="..\DataStore\DataStore.cpp" />
+    <ClCompile Include="..\DisplayHelper\DisplayHelper.cpp" />
+    <ClCompile Include="..\FileCatalogue\FileCatalogue.cpp" />
+    <ClCompile Include="..\FileCatalogue\FileSystem.cpp" />
+    <ClCompile Include="..\Message\Message.cpp" />
+    <ClCompile Include="..\Receiver\Receiver.cpp" />
+    <ClCompile Include="..\Sender\Sender.cpp" />
+    <ClCompile Include="..\Sockets\Sockets\Sockets.cpp" />
+    <ClCompile Include="..\WindowsHelpers\WindowsHelpers.cpp" />
+    <ClCompile Include="..\XmlDocument\XmlDocument.cpp" />
+    <ClCompile Include="..\XmlElementParts\XmlElementParts\Tokenizer.cpp" />
+    <ClCompile Include="..\XmlElementParts\XmlElementParts\xmlElementParts.cpp" />
+    <ClCompile Include="..\XmlElement\XmlElement.cpp" />
+    <ClCompile Include="..\XmltoTree\XmltoTree.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="IClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ApplicationHelpers\AppHelpers.h" />
+    <ClInclude Include="..\Cpp11-BlockingQueue\Cpp11-BlockingQueue.h" />
+    <ClInclude Include="..\DataStore\DataStore.h" />
+    <ClInclude Include="..\DisplayHelper\DisplayHelper.h" />
+    <ClInclude Include="..\FileCatalogue\FileCatalogue.h" />
+    <ClInclude Include="..\FileCatalogue\FileSystem.h" />
+    <ClInclude Include="..\Message\Message.h" />
+    <ClInclude Include="..\Receiver\Receiver.h" />
+    <ClInclude Include="..\Sender\Sender.h" />
+    <ClInclude Include="..\Sockets\Sockets\Sockets.h" />
+    <ClInclude Include="..\WindowsHelpers\WindowsHelpers.h" />
+    <ClInclude Include="..\XmlDocument\XmlDocument.h" />
+    <ClInclude Include="..\XmlElementParts\XmlElementParts\Tokenizer.h" />
+    <ClInclude Include="..\XmlElementParts\XmlElementParts\xmlElementParts.h" />
+    <ClInclude Include="..\XmlElement\XmlElement.h" />
+    <ClInclude Include="..\XmltoTree\XmltoTree.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="IClient.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

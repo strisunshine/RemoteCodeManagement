@@ -1,0 +1,22 @@
+
+  <?xml version="1.0"?>
+  <!-- top level comment -->
+  <Dir>
+    <path>
+      <path1>
+        <path11>
+          / TestFile / Dir1
+        </path11>
+      </path1>
+    </path>
+    <File>
+      <name>
+        <name1>
+          text1 . txt
+        </name1>
+      </name>
+      <date>
+        02 / 11 / 2012
+      </date>
+    </File>
+  </Dir>

@@ -1,0 +1,19 @@
+
+  <?xml version="1.0"?>
+  <?xm-xsl-param name="bookstore" value="syr"?>
+  <catalog>
+    <book id="bk101">
+      <author>
+        Gambardella , Matthew
+      </author>
+      <title>
+        XML Developer ' s Guide
+      </title>
+      <price>
+        44 . 95
+      </price>
+      <publish_date>
+        2000 - 10 - 01
+      </publish_date>
+    </book>
+  </catalog>

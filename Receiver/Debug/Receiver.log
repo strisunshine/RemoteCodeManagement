@@ -1,0 +1,38 @@
+﻿Build started 2015/4/29 23:55:17.
+     1>Project "D:\CSE687\MockProject\backup\MessagePassing\Receiver\Receiver.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D TEST_RECEIVER /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Cpp11-BlockingQueue\Cpp11-BlockingQueue.cpp" ..\DataStore\DataStore.cpp ..\DisplayHelper\DisplayHelper.cpp ..\FileCatalogue\FileCatalogue.cpp ..\FileCatalogue\FileSystem.cpp ..\Message\Message.cpp ..\Sender\Sender.cpp ..\Sockets\ApplicationHelpers\AppHelpers.cpp ..\Sockets\Sockets\Sockets.cpp ..\WindowsHelpers\WindowsHelpers.cpp ..\XmlDocument\XmlDocument.cpp ..\XmlElementParts\XmlElementParts\Tokenizer.cpp ..\XmlElementParts\XmlElementParts\xmlElementParts.cpp ..\XmlElement\XmlElement.cpp ..\XmltoTree\XmltoTree.cpp Receiver.cpp
+         Receiver.cpp
+         XmltoTree.cpp
+         XmlElement.cpp
+         xmlElementParts.cpp
+         Tokenizer.cpp
+         XmlDocument.cpp
+         WindowsHelpers.cpp
+         Sockets.cpp
+         AppHelpers.cpp
+         Sender.cpp
+         Message.cpp
+         FileSystem.cpp
+         FileCatalogue.cpp
+     1>d:\cse687\mockproject\backup\messagepassing\filecatalogue\filecatalogue.cpp(164): error C2784: 'bool std::regex_match(const std::basic_string<_Elem,_StTraits,_StAlloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : could not deduce template argument for 'const std::basic_string<_Elem,_StTraits,_StAlloc> &' from 'char'
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\regex(2762) : see declaration of 'std::regex_match'
+     1>d:\cse687\mockproject\backup\messagepassing\filecatalogue\filecatalogue.cpp(164): error C2780: 'bool std::regex_match(const std::basic_string<_Elem,_StTraits,_StAlloc> &,std::match_results<basic_string<_Elem,_StTraits,_StAlloc>::const_iterator,_Alloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 4 arguments - 2 provided
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\regex(2746) : see declaration of 'std::regex_match'
+     1>d:\cse687\mockproject\backup\messagepassing\filecatalogue\filecatalogue.cpp(164): error C2780: 'bool std::regex_match(const _Elem *,std::match_results<const _Elem*,_Alloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 4 arguments - 2 provided
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\regex(2730) : see declaration of 'std::regex_match'
+     1>d:\cse687\mockproject\backup\messagepassing\filecatalogue\filecatalogue.cpp(164): error C2784: 'bool std::regex_match(const _Elem *,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : could not deduce template argument for 'const _Elem *' from 'char'
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\regex(2716) : see declaration of 'std::regex_match'
+     1>d:\cse687\mockproject\backup\messagepassing\filecatalogue\filecatalogue.cpp(164): error C2780: 'bool std::regex_match(_BidIt,_BidIt,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 4 arguments - 2 provided
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\regex(2704) : see declaration of 'std::regex_match'
+     1>d:\cse687\mockproject\backup\messagepassing\filecatalogue\filecatalogue.cpp(164): error C2780: 'bool std::regex_match(_BidIt,_BidIt,std::match_results<_BidIt,_Alloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 5 arguments - 2 provided
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\regex(2691) : see declaration of 'std::regex_match'
+         DisplayHelper.cpp
+         DataStore.cpp
+         Cpp11-BlockingQueue.cpp
+         Generating Code...
+     1>Done Building Project "D:\CSE687\MockProject\backup\MessagePassing\Receiver\Receiver.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:25.37

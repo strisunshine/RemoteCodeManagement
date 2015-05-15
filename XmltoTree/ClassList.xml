@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+<class_list>
+	<student>
+		<name>Robert</name>
+		<grade>A+</grade>
+	</student>
+<!--
+	<student>
+		<name>Lenard</name>
+		<grade>A-</grade>
+	</student> 
+-->
+</class_list>

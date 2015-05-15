@@ -1,0 +1,3 @@
+//1	The std::basic_ios<>::copyfmt() member function copies all data from the standard output stream cout to the output file stream out, except the error state and the stream buffer. The function std::basic_ios<>::exceptions() allows you to copy the exception mask separately, as in std::cout.exceptions(fil.exceptions()), but you need not do this explicitly, since copyfmt() already copies the exception mask.
+//2	Here the error state is copied.
+//3	Here the stream buffer pointer is copied. Note the peculiar syntax used to call the overloaded member function rdbuf(). The qualification is necessary in order to resolve the call to the overload defined in std::basic_ios<char> rather than the one provided in std::ofstream (which takes no arguments).

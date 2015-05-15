@@ -1,0 +1,9 @@
+<client2toServer1>
+The first line
+The second line
+The third line
+Middle line
+The fourth line
+The firth line
+The sixth line
+The end of file
